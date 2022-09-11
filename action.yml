@@ -60,7 +60,4 @@ runs:
         repo_token: ${{ github.token }}
         automatic_release_tag: ${{ steps.semver.outputs.version }}
         prerelease: false
-        files: |
-          action.yml
-          *.sh
-          Readme.md
+        files: ${{ inputs.files }}
