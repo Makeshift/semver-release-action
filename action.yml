@@ -49,7 +49,7 @@ runs:
         regex_pattern: "major|minor|patch"
 
     - name: Increment Semver
-      uses: Makeshift/increment-semver@master
+      uses: Makeshift/increment-semver@v0.1.4
       id: semver
       with:
         version-level: ${{ contains(fromJson('["major", "minor", "patch"]'), steps.bump.outputs.first_match) && steps.bump.outputs.first_match || 'patch' }}
