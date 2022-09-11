@@ -28,7 +28,7 @@ runs:
     - name: Update Readme
       uses: npalm/action-docs-action@v1.2.0
       with:
-        readme: ${{ inputs.readme-file }}
+        readme: ${{ inputs.readme }}
 
     - uses: stefanzweifel/git-auto-commit-action@v4.14.1
       id: auto-commit-action
