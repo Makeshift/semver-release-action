@@ -26,7 +26,7 @@ runs:
         echo "::set-output name=value::$(git log -1 --pretty=%B)"
 
     - name: Update Readme
-      uses: npalm/action-docs-action@v1.2.0
+      uses: npalm/action-docs-action@v1.3.0
       with:
         readme: ${{ inputs.readme }}
 
