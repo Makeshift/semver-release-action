@@ -39,15 +39,9 @@ jobs:
 ## Inputs
 
 | parameter | description | required | default |
-| - | - | - | - |
+| --- | --- | --- | --- |
 | readme | The path to the readme file | `false` | Readme.md |
-| files | A newline-delimited list of files to include in the release | `false` | action.yml
-*.sh
-Readme.md
- |
-
-
-
+| files | A newline-delimited list of files to include in the release | `false` | action.yml *.sh Readme.md  |
 <!-- action-docs-inputs -->
 
 <!-- action-docs-outputs -->
