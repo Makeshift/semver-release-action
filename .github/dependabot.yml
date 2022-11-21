@@ -3,6 +3,6 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     commit-message:
-      prefix: '[no ci]'
+      prefix: '[no ci][patch]'
     schedule:
       interval: daily
